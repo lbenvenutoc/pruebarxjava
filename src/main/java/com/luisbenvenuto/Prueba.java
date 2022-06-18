@@ -5,7 +5,7 @@ import io.reactivex.Observable;
 public class Prueba {
 
     public static void main(String[] args) {
-        //hello();
+        hello();
         /*System.out.println(new Calculadora() {
             @Override
             public Integer suma(Integer numero1, Integer numero2) {
@@ -14,8 +14,8 @@ public class Prueba {
         }.suma(4,2));
         */
 
-        Calculadora calculadora = (Integer numero1, Integer numero2) -> numero1+numero2;
-        System.out.println(calculadora.suma(4,2));
+        //Calculadora calculadora = (Integer numero1, Integer numero2) -> numero1+numero2;
+        //System.out.println(calculadora.suma(4,2));
 
 
     }
